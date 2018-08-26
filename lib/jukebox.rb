@@ -24,12 +24,12 @@ end
 
 def play(songs)
   puts "Please enter a song name or number"
-  song = gets.chomp
- 
-puts "Enter your name:"
-users_name = gets.chomp
+  song_name = gets.chomp
+
 
 if gets.chomp == songs
+  puts "Playing <song name>"
+else
   puts
  
 puts say_hello(users_name)
