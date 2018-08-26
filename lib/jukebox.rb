@@ -24,8 +24,9 @@ end
 
 def play(song_number)
   "Hi #{name}!"
-end
+
  end
+ 
 puts "Enter your name:"
 users_name = gets.chomp
  
