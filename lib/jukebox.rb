@@ -19,6 +19,7 @@ def help
 end
 
 def list (songs)
+  songs.each_with_index 
   puts "1. Phoenix - 1901
 2. Tokyo Police Club - Wait Up
 3. Sufjan Stevens - Too Much
