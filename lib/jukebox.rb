@@ -47,12 +47,4 @@ def exit_jukebox
 end
 
 
-def run 
-  help
-  puts "Please enter a command:"
-  
-  song_name = gets.chomp
-  
-  if 
 
-  
