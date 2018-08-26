@@ -64,7 +64,7 @@ def run
   
   elsif command == "exit"
    exit_jukebox
-   break
+  
    
  end
  end
