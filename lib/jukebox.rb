@@ -11,8 +11,15 @@ songs = [
 ]
 
 def help 
-  puts "/^(?=.*help)(?=.*list)(?=.*play)(?=.*exit).+/m"
+  puts "I accept the following commands:
+- help : displays this help message
+- list : displays a list of songs you can play
+- play : lets you choose a song to play
+- exit : exits this program"
 end
+
+def list (songs)
+  puts
 
 def play(song_number)
   "Hi #{name}!"
