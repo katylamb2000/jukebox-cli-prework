@@ -28,7 +28,7 @@ def play(songs)
 
 
 if gets.chomp == songs
-  puts "Playing <song name>"
+  puts "Playing "
 else
   puts
 "Invalid input, please try again"  
