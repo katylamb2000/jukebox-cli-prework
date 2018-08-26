@@ -42,6 +42,10 @@ end
 
 def run 
   help
-  puts ""
+  puts "Please enter a command:"
+  
+  song_name = gets.chomp
+  
+  if 
 
   
