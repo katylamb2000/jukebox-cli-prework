@@ -35,6 +35,9 @@ else
 "Invalid input, please try again"  
 end
 
+def exit_jukebox
+  puts "goodbye"
+end
 
 
   
