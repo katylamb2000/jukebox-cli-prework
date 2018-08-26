@@ -24,15 +24,17 @@ end
 
 def play(songs)
   puts "Please enter a song name or number"
-end
+  
   song_name = gets.chomp
 
 
-if gets.chomp == songs
+if gets.chomp == songs.number || songs.name
   puts "Playing #{gets.chomp}"
 else
   puts
 "Invalid input, please try again"  
 end
+
+
 
   
