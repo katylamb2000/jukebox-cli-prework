@@ -51,7 +51,7 @@ def run
  
  command = gets.chomp
  
- if 
+ if command != "exit"
   
   elsif command == "list"
   list
@@ -62,8 +62,11 @@ def run
   elsif command == "help"
   help
   
-  command == exit
+  elsif command == "exit"
    exit_jukebox
+   break
+   
+ end
   
   
 
