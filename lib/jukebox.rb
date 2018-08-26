@@ -13,3 +13,6 @@ songs = [
 def help 
   puts "/^(?=.*help)(?=.*list)(?=.*play)(?=.*exit).+/m"
 end
+
+def play ()
+  
