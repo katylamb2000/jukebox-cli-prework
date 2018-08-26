@@ -31,6 +31,10 @@ if gets.chomp == songs
   puts "Playing <song name>"
 else
   puts
+"Invalid input, please try again"  
+end
+end
+  
  
 puts say_hello(users_name)
 end
