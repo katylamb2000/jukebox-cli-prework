@@ -35,6 +35,3 @@ else
 end
 end
   
- 
-puts say_hello(users_name)
-end
