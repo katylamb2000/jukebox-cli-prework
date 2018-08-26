@@ -45,7 +45,7 @@ end
 def exit_jukebox
   puts "goodbye"
 end
-end
+
 
 def run 
   help
