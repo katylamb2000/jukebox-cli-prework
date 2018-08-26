@@ -40,4 +40,8 @@ def exit_jukebox
 end
 end
 
+def run 
+  help
+  puts ""
+
   
