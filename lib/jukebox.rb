@@ -19,7 +19,7 @@ def help
 end
 
 def list (songs)
-  songs.each_with_index 
+ songs.each_with_index{|item, index = 1| some_func(item, index) }
   puts "1. Phoenix - 1901
 2. Tokyo Police Club - Wait Up
 3. Sufjan Stevens - Too Much
